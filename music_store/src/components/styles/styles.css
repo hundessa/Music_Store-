@@ -1,0 +1,72 @@
+#app {
+    height: 100%;
+  }
+  /* html,
+  body {
+    position: relative;
+    height: 100%;
+  } */
+  
+  /* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    transition: all;
+    transition: ease-in-out;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .background1 {
+    background-image: url('../../assets/banner/banner_3.jpg') !important;
+    background-position: center !important; 
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 100vh;
+}
+.background2 {
+  background-image: url('../../assets/banner/banner-2.jpg') !important;
+  background-position: center !important; 
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+}
+.background3 {
+  background-image: url('../../assets/banner/banner_4.jpg') !important;
+  background-position: center !important; 
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+}
+
+.album-bg{
+  background-image: url('../../assets/popular_albums/music3.jpg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
